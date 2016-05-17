@@ -53,4 +53,4 @@ async def on_message(message):
     #fmt = '{0.author.name} has deleted the message:\n{0.content}'
     #await client.send_message(message.channel, fmt.format(message))
 
-client.run('MTgwODY3Nzk5MTY4NzEyNzA1.Chgdww.a8FJJkjskukuooYjCsMNlMud6jM')
+client.run('[token censored]')
