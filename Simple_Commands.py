@@ -13,9 +13,9 @@ async def simpleCommands(message,message2,client,user,platform):
 	elif message2.lower().startswith("!rude"):
 		await sendMessage(message,client,platform,"Why you gotta be so rude? Don't you know I'm human too")
 	elif (message2.lower().startswith("!hayleediscord")) and (user.format(message) == "Hayleethegamer"):
-		await sendMessage(message,client,platform,"Wanna come join me and Hayleethegamer away from here? join our discord! https://discord.gg/010cKA9ijjDcKbdS0")
+		await sendMessage(message,client,platform,"Wanna come join me and Hayleethegamer away from here? join our discord! [link]")
 	elif (message2.lower().startswith("!privatehayleediscord")) and (user.format(message) == "Hayleethegamer"):
-		await sendMessage(message,client,platform,"Buggy PMs? Come to Haylee's Private discord for Private messages! :smile: https://discord.gg/013PUXptGqRbf5YbA")
+		await sendMessage(message,client,platform,"Buggy PMs? Come to Haylee's Private discord for Private messages! :smile: [link])
 	elif message2.lower().startswith("!lawyer"):
 		await sendMessage(message,client,platform,"You don't have the right to an attorney , if you can not afford to not have one, one will not be appointed to you. You have the right to not remian silent, anything you say can and will be used in a court of law")
 	elif message2.lower().startswith("!cut"):
